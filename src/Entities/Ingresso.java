@@ -2,9 +2,9 @@ package Entities;
 
 public sealed abstract class Ingresso permits EntradaFamilia, MeiaEntrada {
 
-    protected double valor;
-    protected String nomeFilme;
-    protected boolean dublado; //true = dublado , false = legendado
+    private double valor;
+    private String nomeFilme;
+    private boolean dublado; //true = dublado , false = legendado
 
 
     public Ingresso (double valor, String nomeFilme, boolean dublado){
